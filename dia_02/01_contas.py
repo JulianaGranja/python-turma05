@@ -40,3 +40,17 @@ print("Meu int:", meu_int)
 meu_float = float(4)
 print("Meu float:", meu_float)
 
+# %%
+
+original = -100
+divisor = 3
+
+valor_int = original // divisor
+resto = original % divisor
+
+novo_original = (valor_int * divisor) + resto
+
+if novo_original == original:
+    print("Sucesso!")
+else:
+    print("Fracasso!")
